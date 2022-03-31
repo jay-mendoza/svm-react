@@ -21,7 +21,7 @@ function Home() {
                     <span style={{backgroundImage: "url('assets/images/skills/javascript.png')"}}></span>
                 </div>
                 <nav>        
-                    <a className="icon-link" href="https://blazor.staticvoidmain.dev" target="_blank" rel="noreferrer">
+                    <a className="icon-link" href="https://angular.staticvoidmain.dev" target="_blank" rel="noreferrer">
                         <span style={{backgroundImage: "url('assets/images/skills/angular.png')"}}></span>
                         <span style={{backgroundImage: "url('assets/images/skills/typescript.png')"}}></span>
                         <span className="icon-link-text">Angular | TS</span>
@@ -30,7 +30,7 @@ function Home() {
                         <span style={{backgroundImage: "url('assets/images/skills/github.png')"}}></span>
                         <span className="icon-link-text">Source Code</span>
                     </a>
-                    <a className="icon-link" href="https://react.staticvoidmain.dev" target="_blank"  rel="noreferrer">
+                    <a className="icon-link" href="https://blazor.staticvoidmain.dev" target="_blank"  rel="noreferrer">
                     <span style={{backgroundImage: "url('assets/images/skills/blazor.png')"}}></span>
                         <span style={{backgroundImage: "url('assets/images/skills/csharp.png')"}}></span>
                         <span className="icon-link-text">Blazor | C#</span>
