@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+    .HeroLink article.project {
+        flex-direction: column;
+    }
+    .HeroLin karticle.project > * {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .HeroLink article.project > a > div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+  }
+
+  .HeroLink article.project {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 800px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .HeroLink article.project > a {
+        margin: 0;
+        max-width: calc(100% / 2);
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+        .HeroLink article.project > a > div {
+            width: 100%;
+            border-radius: 5px;
+            background-size: cover;
+            background-position: center;
+            max-width: calc(100% - 20px);
+            margin: 0 auto;
+            height: 200px;
+        }
+
+    .HeroLink article.project > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-grow: 2;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: calc(100% / 2);
+    }
+
+        .HeroLink article.project > div > * {
+            background-color: #404040;
+            display: block;
+            margin: 2px 0;
+            padding: 4px 10px;
+        }
+
+        .HeroLink article.project > div > a {
+            text-transform: uppercase;
+            font-size: 14px;
+            box-shadow: 0 0 3px 1px #E5DE5A;
+            border-radius: 20px;
+            text-overflow: clip;
+            text-overflow: ellipsis ellipsis;
+            text-overflow: ellipsis " [..]";
+        }
+
+        .HeroLink article.project > div > header {
+            font-size: 22px;
+            line-height: 30px;
+            box-sizing: border-box;
+            background-color: #217B8B;
+        }
+
+            .HeroLink article.project > div > header > span {
+                font-size: 30px;
+            }
+
+        .HeroLink article.project > div > div {
+            flex-grow: 2;
+        }

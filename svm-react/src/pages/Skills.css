@@ -1,0 +1,119 @@
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-page ul.skills {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+    .skills-page ul.skills > li {
+        background: #202020;
+        margin: 2.5px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px 0 0;
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 3px #217B8B;
+        border-radius: 5px 5px 0 0;
+    }
+
+        .skills-page ul.skills > li > a {
+            display: flex;
+        }
+
+        .skills-page ul.skills > li .icon {
+            line-height: 40px;
+            display: inline-block;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 5px;
+        }
+
+        .skills-page ul.skills > li .label {
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+        }
+
+        .skills-page ul.certificates {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        .skills-page ul.certificates > li {
+            margin: 2.5px;
+            height: 160px;
+            line-height: 160px;
+            padding: 0 0 0 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .skills-page ul.certificates > li span {
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: 140px;
+            height: 100%;
+            margin-right: 5px;
+        }
+
+        .skills-page article.education {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skills-page article.education > div {
+            display: flex;
+            flex-direction: row;
+            font-size: 16px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: 5px solid white;
+            background-color: #217B8B;
+            margin: 10px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .skills-page article.education > div > h1 {
+            font-size: 20px;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .skills-page article.education > div > div {
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+            .skills-page article.education > div > div > span {
+                padding: 2px 0;
+            }
+
+            .skills-page article.education > div > div > span:last-child {
+                color: #D0D0D0;
+                font-style:italic;
+                text-shadow: 1px 1px 4px #000;
+            }

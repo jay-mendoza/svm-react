@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Search-Prime: The easy way to search Amazon",
+    "description": "Filter search results in Amazon. Show only Prime, sold by Amazon, four stars and up! Find and show only the items you want to see.",
+    "linkHref": "https://prime.staticvoidmain.app/",
+    "imageUrl": "https://prime.staticvoidmain.app/hero.png",
+    "isPro": false,
+    "devComment": "This web app is written in Angular and TypeScript. It uses the Angular Material Library. It uses LESS as CSS preprocessor because I personally like LESS."
+  },
+  {
+    "title": "Healthy Recipes, Healthy Eating",
+    "description": "Find healthy, delicious recipes and menu ideas from our test kitchen cooks and nutrition experts at EatingWell magazine. Learn how to make healthier food choices every day.",
+    "linkHref": "https://www.eatingwell.com/",
+    "imageUrl": "https://images.media-allrecipes.com/images/88400.jpg",
+    "isPro": true,
+    "devComment": "The web app is written in ASP.Net MVC and AngularJS (SASS for stylesheet). I worked mostly on the front-end. Everything you see on the home page (currently) is my work. Update: Not anymore. So sad. Tip: Use waybackmachine and go to back 2020."
+  },
+  {
+    "title": "New Ford Tech",
+    "description": "Ford Technical Career Entry Programs provide Service Technical Specialty Training- the same training dealer technicians receive!",
+    "linkHref": "https://www.newfordtech.com/",
+    "imageUrl": "https://www.newfordtech.com/home/resized/2",
+    "isPro": true,
+    "devComment": "The web app is written in ASP.NET MVC. It uses jQuery. I worked on the front to middle end. It still mostly look the way I left it. Some of the elements, however, seem to have changed. Of course, it did look better when I was there!"
+  },
+  {
+    "title": "Blank Screen",
+    "description": "My finest work. A blank page. Right-click to switch colors between black and white. PRO TIP: On video calls, open several browser windows, set screen to white, and move around to control shadow and lighting on your face.",
+    "linkHref": "https://blank.staticvoidmain.page",
+    "imageUrl": "https://blank.staticvoidmain.page/hero.jpg",
+    "isPro": false,
+    "devComment": "This has the best code to usefulness ratio of any web app I have written. It's just plain HTML with embedded script and style. I have written this with a simple purpose: make my secondary screen black when not used. I wanted a simple way to do this without interacting with the monitor itself. I decided to add an all-white screen function to control the localized monitor lighting for webcam communications. No need for a separate lighting solution, as I already have giant monitors that can produce light."
+  },
+  {
+    "title": "Jay and Kate's Wedding",
+    "description": "At Palazzo Verde, Las Pi\u00F1as, on 6th of April 2019, Saturday, at 2:30 PM.",
+    "linkHref": "https://ramen.staticvoidmain.page",
+    "imageUrl": "https://ramen.staticvoidmain.page/hero.jpg",
+    "isPro": false,
+    "devComment": "This website uses a regular HTML template, and uses vanilla web (HTML+CSS+JS). This is a website I have made for my wedding."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "angular",
+    "name": "Angular"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "id": "angularjs",
+    "name": "AngularJS"
+  },
+  {
+    "id": "react",
+    "name": "React"
+  },
+  {
+    "id": "html",
+    "name": "HTML"
+  },
+  {
+    "id": "css",
+    "name": "CSS"
+  },
+  {
+    "id": "less",
+    "name": "LESS"
+  },
+  {
+    "id": "sass",
+    "name": "SASS"
+  },
+
+  {
+    "id": "csharp",
+    "name": ""
+  },
+  {
+    "id": "blazor",
+    "name": "Blazor"
+  },
+  {
+    "id": "razor",
+    "name": "Razor"
+  },
+  {
+    "id": "dotnet",
+    "name": ".Net Framework"
+  },
+  {
+    "id": "aspdotnet",
+    "name": "MVC, Web Pages, Web API, Web Forms"
+  },
+
+  {
+    "id": "linq",
+    "name": "LINQ"
+  },
+  {
+    "id": "xaml",
+    "name": "XAML"
+  },
+  {
+    "id": "windows",
+    "name": "WPF, Windows Forms"
+  },
+  
+  {
+    "id": "nodejs",
+    "name": "Node.js"
+  },
+  {
+    "id": "json",
+    "name": "JSON"
+  },
+  {
+    "id": "xml",
+    "name": "XML"
+  },
+  {
+    "id": "git",
+    "name": "GIT"
+  },
+  {
+    "id": "github",
+    "name": "GitHub"
+  },
+  {
+    "id": "vscode",
+    "name": "Code"
+  },
+  {
+    "id": "linqpad",
+    "name": "LinqPad"
+  },
+  {
+    "id": "aws",
+    "name": "AWS"
+  },
+  {
+    "id": "azure",
+    "name": "Azure"
+  },
+  {
+    "id": "azuredevops",
+    "name": "Azure DevOps"
+  },
+  {
+    "id": "googlecloud",
+    "name": "Google Cloud"
+  }
+]

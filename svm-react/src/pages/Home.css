@@ -1,0 +1,64 @@
+.index-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-page nav {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.version-icon {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    margin: 10px 0 20px;
+}
+
+    .version-icon > span {
+        background-position: center;
+        background-repeat: no-repeat;      
+        filter: drop-shadow(1px 1px 10px #101010);
+    }
+        .version-icon > span:first-child {
+            background-size: 160px;
+            width: 160px;
+            height: 160px;
+        }
+        .version-icon > span:last-child {
+            background-size: 60px;
+            width: 60px;
+            height: 60px;
+        }
+
+.icon-link {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+
+}
+    .icon-link > span:not(.icon-link-text) {
+        background-position: center;
+        background-repeat: no-repeat;      
+        filter: drop-shadow(1px 1px 10px #101010);
+    }
+
+        .icon-link > span:not(.icon-link-text):first-child {
+            background-size: 40px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .icon-link > span:not(.icon-link-text):not(:first-child) {
+            filter: drop-shadow(1px 1px 10px #101010);
+            background-size: 30px;
+            width: 30px;
+            height: 30px;
+        }
+
+    .icon-link  > span.icon-link-text {
+        margin-left: 5px;
+    }
