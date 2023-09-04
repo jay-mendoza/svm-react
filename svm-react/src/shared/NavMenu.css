@@ -12,8 +12,8 @@
         padding: 10px;
         margin: 20px;
 
-        border-radius: 60px;
-        width: 60px;
+        border-radius: 30px 10px;
+        width: 100px;
         height: 60px;
         background-color: #202020;
         box-shadow: 0 0 20px 1px #E5DE5A;

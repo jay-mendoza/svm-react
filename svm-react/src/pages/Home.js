@@ -14,56 +14,58 @@ function Home() {
         <div className="index-page">
             <section>
                 <h1>hello.</h1>
-                <div className="paragraph">Welcome to my domain. This is a playground, and a bit of a showcase website about me. I have been updating this with whatever technology I wanted to learn and play with. It has undergone several changes. Currently, I have three versions of this site: Angular + TypeScript, React + JavaScript, and Blazor + C#. This one is the React version.</div>
-                
-                <div className="version-icon">
-                    <span style={{backgroundImage: "url('assets/images/skills/react.png')"}}></span>
-                    <span style={{backgroundImage: "url('assets/images/skills/javascript.png')"}}></span>
+                <div className="paragraph">
+                    <b>Welcome to My Digital Playground.</b> You've landed on a dynamic canvas that's both a reflection of my journey and a testament to my passion for technology. This site has evolved over time, adapting and reshaping as I explored and mastered new tools and languages. Presently, there are three distinct versions of this platform: Angular with TypeScript, Blazor with C#, and the one you're currently browsing — .React with JavaScript
                 </div>
-                <nav>        
+
+                <div className="version-icon">
+                    <span style={{ backgroundImage: "url('assets/images/skills/react.png')" }}></span>
+                    <span style={{ backgroundImage: "url('assets/images/skills/javascript.png')" }}></span>
+                </div>
+                <nav>
                     <a className="icon-link" href="https://angular.staticvoidmain.dev" target="_blank" rel="noreferrer">
-                        <span style={{backgroundImage: "url('assets/images/skills/angular.png')"}}></span>
-                        <span style={{backgroundImage: "url('assets/images/skills/typescript.png')"}}></span>
+                        <span style={{ backgroundImage: "url('assets/images/skills/angular.png')" }}></span>
+                        <span style={{ backgroundImage: "url('assets/images/skills/typescript.png')" }}></span>
                         <span className="icon-link-text">Angular | TS</span>
                     </a>
-                    <a className="icon-link" href="https://github.com/jay-mendoza/svm-react" target="_blank"  rel="noreferrer">
-                        <span style={{backgroundImage: "url('assets/images/skills/github.png')"}}></span>
+                    <a className="icon-link" href="https://github.com/jay-mendoza/svm-react" target="_blank" rel="noreferrer">
+                        <span style={{ backgroundImage: "url('assets/images/skills/github.png')" }}></span>
                         <span className="icon-link-text">Source Code</span>
                     </a>
-                    <a className="icon-link" href="https://blazor.staticvoidmain.dev" target="_blank"  rel="noreferrer">
-                    <span style={{backgroundImage: "url('assets/images/skills/blazor.png')"}}></span>
-                        <span style={{backgroundImage: "url('assets/images/skills/csharp.png')"}}></span>
+                    <a className="icon-link" href="https://blazor.staticvoidmain.dev" target="_blank" rel="noreferrer">
+                        <span style={{ backgroundImage: "url('assets/images/skills/blazor.png')" }}></span>
+                        <span style={{ backgroundImage: "url('assets/images/skills/csharp.png')" }}></span>
                         <span className="icon-link-text">Blazor | C#</span>
                     </a>
                 </nav>
-                
+
                 <nav className="main">
                     <a href="https://angular.staticvoidmain.dev" target="_blank" rel="noreferrer">
-                        <span style={{backgroundImage: "url('assets/images/skills/angular.png')"}}></span>
-                        <span style={{backgroundImage: "url('assets/images/skills/typescript.png')"}}></span>
-                    </a>  
+                        <span style={{ backgroundImage: "url('assets/images/skills/angular.png')" }}></span>
+                        <span style={{ backgroundImage: "url('assets/images/skills/typescript.png')" }}></span>
+                    </a>
                     <a href="https://blazor.staticvoidmain.dev" target="_blank" rel="noreferrer">
-                        <span style={{backgroundImage: "url('assets/images/skills/blazor.png')"}}></span>
-                        <span style={{backgroundImage: "url('assets/images/skills/csharp.png')"}}></span>
-                    </a>                    
+                        <span style={{ backgroundImage: "url('assets/images/skills/blazor.png')" }}></span>
+                        <span style={{ backgroundImage: "url('assets/images/skills/csharp.png')" }}></span>
+                    </a>
                 </nav>
                 <div className="p">
-                    I use <a href="https://materialdesignicons.com/" target="_blank" rel="noreferrer">Material Design Icons</a> for my icons.
+                    Dive in and witness the versatility of my craft. Click on the links above ↑ to see other versions, as well as the source code for this version. I use <a href="https://materialdesignicons.com/" target="_blank" rel="noreferrer">Material Design Icons</a> for my icons.
                 </div>
             </section>
             <section>
                 <h1>who is jay ?</h1>
                 <div className="paragraph">
-                    <b>That would be me.</b> I work with software professionally. I also do it personally because it is a hobby. I like all things related to computers and everything digital. I love technology. I also love playing games, and when I get the time, I would do photography.
+                    <b>That would be me</b>, a passionate Computer Engineer with a deep affinity for all things digital. My journey began with an extensive education in <a href="https://en.wikipedia.org/wiki/Computer_engineering" target="_blank" rel="noreferrer">Computer Engineering</a>, where I delved into the intricacies of electronics, software, and hardware. While my career has primarily been rooted in software engineering, this foundation has been instrumental in shaping my holistic understanding of the digital landscape.
                 </div>
-                <div className="paragraph">
+                {/* <div className="paragraph">
                     {HeroLink(project)}
+                </div> */}
+                <div className="paragraph">
+                    What drives me? A genuine love for technology, from the thrill of gaming to the artistry of photography. My strengths lie in full-stack development, with a notable flair for front-end. Yet, my versatile skill set and insatiable curiosity keep me open to exploring opportunities in areas like embedded systems and mobile development.
                 </div>
                 <div className="paragraph">
-                    I refer to myself as a computer engineer. I spent years getting my degrees in <a href="https://en.wikipedia.org/wiki/Computer_engineering" target="_blank" rel="noreferrer">Computer Engineering</a>. I am trained and educated to deal with electronics, software, hardware, and everything in between — although I never really got these to good use, as I have been doing software engineering for the entirety of my career.
-                </div>
-                <div className="paragraph">
-                    Software-wise, I do full-stack, but I am especially gifted with front-end development. I would like the opportunity to work on other things as well, like embedded systems and mobile if given the chance. Aside from Technology, the automotive and aerospace industries interest me the most.
+                    Let's dive into the digital realm together.
                 </div>
             </section>
         </div>
